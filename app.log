@@ -1,0 +1,1283 @@
+2025-02-25 19:04:42,100 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:04:42,100 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:04:42,100 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:04:42,806 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:04:42,812 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:05:06,336 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:05:06,517 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:05:06,521 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:05:07,226 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:05:07,242 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:05:51,609 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:05:51,609 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:05:51,609 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:05:52,237 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:05:52,245 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:05:57,102 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:05:57] "GET / HTTP/1.1" 200 -
+2025-02-25 19:05:57,251 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:05:57] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:05:57,278 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:05:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:05:57,331 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:05:57,331 [INFO] __main__: Token file does not exist.
+2025-02-25 19:05:57,336 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:05:57,336 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:06:10,663 [INFO] google_auth_oauthlib.flow: "GET /?state=20XgeVPP1OoGUVzpzVrDQaNe7TJT4G&code=4/0AQSTgQFZdwQVhhTxpMRnU7r7WpWXKWFRfSBF14grwgoQE3N16AjVHXz-xyBeMyDpjCkwwg&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/classroom.coursework.me HTTP/1.1" 200 65
+2025-02-25 19:06:10,881 [INFO] __main__: New credentials obtained.
+2025-02-25 19:06:10,882 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:06:10,891 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:10,901 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:12,846 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:06:12,862 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:12] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:06:26,944 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:26,945 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:26,956 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:26] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2025-02-25 19:06:26,971 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:26] "[36mGET /auth?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:06:26,972 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:26] "[36mGET /auth?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:06:27,014 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:27] "GET /auth?__debugger__=yes&cmd=resource&f=console.png&s=qw7hl0BYVTQBlZJEr4Li HTTP/1.1" 200 -
+2025-02-25 19:06:48,167 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:06:48,312 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:06:49,081 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:06:49,091 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:06:51,068 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:51,068 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:51,075 [INFO] __main__: Valid credentials found.
+2025-02-25 19:06:51,078 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:51] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:06:51,084 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:51,084 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:51,086 [INFO] __main__: Valid credentials found.
+2025-02-25 19:06:51,088 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:51,093 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:51,892 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:51,892 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:51,892 [INFO] __main__: Valid credentials found.
+2025-02-25 19:06:51,892 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:51] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:06:51,900 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:51,901 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:51,901 [INFO] __main__: Valid credentials found.
+2025-02-25 19:06:51,903 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:51,907 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:52,635 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:06:52,641 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:52] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:06:53,829 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:06:53,844 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:53] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:06:53,913 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:53] "GET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-25 19:06:53,913 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:53] "GET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-25 19:06:53,929 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:53] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=MUHSmLlVCueuv3Vo7kGq HTTP/1.1" 200 -
+2025-02-25 19:06:55,512 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:55,512 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:55,512 [INFO] __main__: Valid credentials found.
+2025-02-25 19:06:55,513 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:55] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:06:55,517 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:06:55,518 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:06:55,520 [INFO] __main__: Valid credentials found.
+2025-02-25 19:06:55,521 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:55,526 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:06:57,034 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:06:57,046 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:57] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:06:57,067 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:57] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:06:57,068 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:57] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:06:57,088 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:57] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=MUHSmLlVCueuv3Vo7kGq HTTP/1.1[0m" 304 -
+2025-02-25 19:06:57,111 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:06:57] "GET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-25 19:10:01,921 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:10:01,925 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:10:01,929 [INFO] __main__: Valid credentials found.
+2025-02-25 19:10:01,931 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:10:01,931 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:10:04,070 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:10:04,094 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:04] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:10:04,124 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:10:04,125 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:10:04,141 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=MUHSmLlVCueuv3Vo7kGq HTTP/1.1[0m" 304 -
+2025-02-25 19:10:04,157 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 19:10:07,068 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:10:07,069 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:10:07,070 [INFO] __main__: Valid credentials found.
+2025-02-25 19:10:07,071 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:07] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:10:07,075 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:10:07,075 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:10:07,077 [INFO] __main__: Valid credentials found.
+2025-02-25 19:10:07,081 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:10:07,088 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:10:08,932 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:10:08,934 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:08] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:10:08,960 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:08] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:10:08,961 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:08] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:10:08,971 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:08] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=MUHSmLlVCueuv3Vo7kGq HTTP/1.1[0m" 304 -
+2025-02-25 19:10:42,721 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:10:42,721 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:10:42,721 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:10:43,382 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:10:43,389 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:10:45,173 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:45] "GET / HTTP/1.1" 200 -
+2025-02-25 19:10:45,396 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:45] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:10:45,475 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:10:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:10:45,486 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:10:45,487 [INFO] __main__: Token file does not exist.
+2025-02-25 19:10:45,487 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:10:45,487 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:16:50,557 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:16:50,558 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:16:50,560 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:16:51,261 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:16:51,277 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:17:11,518 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:11] "GET / HTTP/1.1" 200 -
+2025-02-25 19:17:11,714 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:17:11,890 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:17:11,928 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:17:11,929 [INFO] __main__: Token file does not exist.
+2025-02-25 19:17:11,930 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:17:11,930 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:17:23,074 [INFO] google_auth_oauthlib.flow: "GET /?state=uHwvwN0buFvjmTJ9l596f3Bmg25JKy&code=4/0AQSTgQFKhMKl_vCZqL2fBn-3nKl265YZS_BamzKilw02coSepnCsOlOhehPAFK3o05Ed7A&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/classroom.coursework.me HTTP/1.1" 200 65
+2025-02-25 19:17:23,289 [INFO] __main__: New credentials obtained.
+2025-02-25 19:17:23,291 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:17:23,302 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:23,313 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:25,279 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:17:25,310 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:25] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:17:34,067 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:34] "GET / HTTP/1.1" 200 -
+2025-02-25 19:17:34,080 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:34] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:17:34,083 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:17:34,093 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:17:34,094 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:17:34,099 [INFO] __main__: Valid credentials found.
+2025-02-25 19:17:34,102 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:34,112 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:35,657 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:35] "GET / HTTP/1.1" 200 -
+2025-02-25 19:17:35,669 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:35] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:17:35,674 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:17:35,682 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:17:35,683 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:17:35,684 [INFO] __main__: Valid credentials found.
+2025-02-25 19:17:35,687 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:35,696 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:35,946 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:17:35,962 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:35] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:17:36,429 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:36] "GET / HTTP/1.1" 200 -
+2025-02-25 19:17:36,443 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:36] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:17:36,445 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:17:36,456 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:17:36,458 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:17:36,460 [INFO] __main__: Valid credentials found.
+2025-02-25 19:17:36,463 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:36,470 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:37,525 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:17:37,536 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:37] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:17:37,618 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:17:37,618 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:17:37,621 [INFO] __main__: Valid credentials found.
+2025-02-25 19:17:37,622 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:37] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:17:38,836 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:17:38,849 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:38] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:17:38,855 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:17:38,856 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:17:38,856 [INFO] __main__: Valid credentials found.
+2025-02-25 19:17:38,856 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:38,875 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:17:41,010 [WARNING] googleapiclient.http: Encountered 403 Forbidden with reason "PERMISSION_DENIED"
+2025-02-25 19:17:41,025 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:41] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:17:41,051 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:41] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:17:41,052 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:41] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:17:41,077 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:17:41] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=2F8b4t7z4hWhYLmjnMmC HTTP/1.1" 200 -
+2025-02-25 19:21:51,477 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:21:51,882 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:21:52,720 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:21:52,729 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:22:02,475 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:22:02,476 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:22:02,477 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:22:03,132 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:22:03,139 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:22:06,531 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:06] "GET / HTTP/1.1" 200 -
+2025-02-25 19:22:06,720 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:06] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:22:06,787 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:22:06,801 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:22:06,802 [INFO] __main__: Token file does not exist.
+2025-02-25 19:22:06,802 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:22:06,803 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:22:20,936 [INFO] google_auth_oauthlib.flow: "GET /?state=gEWuERBa37VGBUsmCeCcpMEA5CfApw&code=4/0ASVgi3L9PSdmQnMjbHwxbAQG-ydO-Ur_eqPodPjaHk8tKGKX6qsny7NglqmIVe4k02b2HA&scope=https://www.googleapis.com/auth/classroom.courses.readonly%20https://www.googleapis.com/auth/classroom.coursework.me%20https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2025-02-25 19:22:21,144 [INFO] __main__: New credentials obtained.
+2025-02-25 19:22:21,145 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:22:21,151 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:22:21,158 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:22:23,484 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:23] "GET /courses HTTP/1.1" 200 -
+2025-02-25 19:22:25,693 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:22:25,693 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:22:25,694 [INFO] __main__: Token file does not exist.
+2025-02-25 19:22:25,695 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:22:25,696 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:22:30,684 [INFO] google_auth_oauthlib.flow: "GET /?state=WOHzpLe6ZWmi18IhxsCNwe8sSgM9Va&code=4%2F0ASVgi3Lsy32gIH2RCRf-v-_mHYt9AAuVkoVW9IX4dBbBzMVeRiaz-hfu9fxzCOHLkGhbow&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 19:22:30,868 [INFO] __main__: New credentials obtained.
+2025-02-25 19:22:30,870 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:22:30,873 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:30] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:22:30,884 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:22:30,885 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:22:30,941 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:30] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:22:30,952 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:22:30,954 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:22:30,977 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:22:30] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=qYo8T92ONmO3Dlvnk3e0 HTTP/1.1" 200 -
+2025-02-25 19:23:38,255 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:23:38,384 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:23:39,212 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:23:39,221 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:23:58,998 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:23:58,998 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:23:58,999 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:23:59,612 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:23:59,620 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:24:01,397 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:01] "GET / HTTP/1.1" 200 -
+2025-02-25 19:24:01,416 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:01] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:24:01,487 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:24:01,636 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:24:01,637 [INFO] __main__: Token file does not exist.
+2025-02-25 19:24:01,638 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:24:01,638 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:24:01,655 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:01] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:24:14,801 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:24:14,911 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:24:15,667 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:24:15,675 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:24:20,928 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:20] "GET / HTTP/1.1" 200 -
+2025-02-25 19:24:20,942 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:24:20,988 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:24:20,995 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:24:20,995 [INFO] __main__: Token file does not exist.
+2025-02-25 19:24:20,996 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:24:20,996 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:24:24,606 [INFO] google_auth_oauthlib.flow: "GET /?state=yIMyrBQUnG3esWktUVfe8nlL0uPIlS&code=4%2F0ASVgi3KdB-ksAYfwcPbbtaPTZHGR4pM-Zp64gx7tI-oJzvpUv9wRuoT6u0wSKFieumd5LA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-25 19:24:24,804 [INFO] __main__: New credentials obtained.
+2025-02-25 19:24:24,805 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:24:24,809 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:24:24,814 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:24:26,541 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:24:26] "GET /courses HTTP/1.1" 200 -
+2025-02-25 19:25:00,271 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:25:00,382 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:25:01,057 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:25:01,066 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:25:04,920 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:04] "GET / HTTP/1.1" 200 -
+2025-02-25 19:25:04,933 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:04] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:25:05,013 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:25:05,021 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:25:05,022 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:25:05,031 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:05] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:25:06,319 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:25:06,319 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:25:06,320 [INFO] __main__: Token file does not exist.
+2025-02-25 19:25:06,320 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:25:06,320 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:25:09,611 [INFO] google_auth_oauthlib.flow: "GET /?state=8iyIxrVE8CpsRj5HTdazRILMn2g4nO&code=4%2F0ASVgi3LycfJYCIAjaRBoys4jjnWbjmnTX2CP6c_ZlwjXHccNEFPLWu3GsPV_kEyxq9i0nA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-25 19:25:09,774 [INFO] __main__: New credentials obtained.
+2025-02-25 19:25:09,774 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:25:09,776 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:09] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:25:09,781 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:25:09,782 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:25:09,802 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:09] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:25:09,819 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:09] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:25:09,820 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:09] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:25:09,848 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:09] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=vsZV80VbhcjwHCmv5aMr HTTP/1.1" 200 -
+2025-02-25 19:25:26,822 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:25:26,823 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:25:26,823 [INFO] __main__: Token file does not exist.
+2025-02-25 19:25:26,823 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:25:26,824 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:25:30,410 [INFO] google_auth_oauthlib.flow: "GET /?state=yZLBd9uBa6uOyjeHr199ad84Ow1Rre&code=4%2F0AQSTgQHx32XOLZFLrichGIaSvgzp6s6nA75lTGRbThWqPx2R9EZs0On9zlhhTmBmFVYLoQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-25 19:25:30,569 [INFO] __main__: New credentials obtained.
+2025-02-25 19:25:30,571 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:25:30,573 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:30] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:25:30,583 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:25:30,584 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:25:30,619 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:30] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:25:30,636 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:25:30,638 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:25:30,664 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:25:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=vsZV80VbhcjwHCmv5aMr HTTP/1.1[0m" 304 -
+2025-02-25 19:28:05,073 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:28:05,640 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:28:07,158 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:28:07,187 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:28:19,377 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:28:19,545 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:28:20,311 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:28:20,327 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:28:20,348 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:28:20,433 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:28:21,033 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:28:21,049 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:31:01,337 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:31:01,337 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:31:01,337 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:31:01,929 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:31:01,941 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:31:15,156 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:15] "GET / HTTP/1.1" 200 -
+2025-02-25 19:31:15,392 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:15] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:31:15,498 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:31:15,510 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:31:15,512 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:31:15,533 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-25 19:31:15,548 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:15] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:31:17,629 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:31:17,633 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:17] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:31:35,331 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:31:35,488 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:31:36,610 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:31:36,623 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:31:42,356 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:31:42,356 [INFO] __main__: Token file does not exist.
+2025-02-25 19:31:42,359 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:31:42,360 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:31:58,946 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:31:59,059 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:31:59,791 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:31:59,808 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:31:59,827 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:31:59] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:33:13,527 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:33:13,609 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:33:14,388 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:33:14,396 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:33:15,426 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:33:15,500 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:33:16,174 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:33:16,183 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:33:26,232 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:33:26] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:33:55,539 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:33:55,648 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:33:56,509 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:33:56,521 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:37:19,460 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:37:19,542 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:37:20,233 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:37:20,241 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:37:27,300 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:37:27,386 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:37:28,040 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:37:28,048 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:40:08,542 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:40:08,542 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:40:08,547 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:40:09,350 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:40:09,360 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:40:13,399 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:13] "GET / HTTP/1.1" 200 -
+2025-02-25 19:40:13,662 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:13] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:40:13,768 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:40:13,793 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:40:13,794 [INFO] __main__: Token file does not exist.
+2025-02-25 19:40:13,794 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:40:13,795 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:40:13,807 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-25 19:40:18,000 [INFO] google_auth_oauthlib.flow: "GET /?state=Q5cKujijJE8RTB2GIfWHg4SgeCC6Xv&code=4%2F0AQSTgQEZPVfxE2YpaBbmHNXCxPAF3DT1CQa8k7qCd2XyHcJZa0J6KJhyy3MnmDDxHgD1Mw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 19:40:18,218 [INFO] __main__: New credentials obtained.
+2025-02-25 19:40:18,219 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:40:18,225 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:40:18,232 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:40:20,113 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:20] "GET /courses HTTP/1.1" 200 -
+2025-02-25 19:40:23,915 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:40:27,781 [INFO] google_auth_oauthlib.flow: "GET /?state=KfEeIFG2nZWfAML3H68rDOp4tdyZwM&code=4%2F0ASVgi3LyhkrmEiC56JvDFTnWfUgUBY9OrImnptLaVRm4b1tWBOhsiX5zWlnLRma38HCHlw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 19:40:27,950 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 19:40:27,950 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:27] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:40:27,950 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:40:27,962 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:40:28,087 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:28] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:40:28,109 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:40:28,110 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:40:28,669 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:40:28] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=FUgewu9LFhxt7F3KfZ6A HTTP/1.1" 200 -
+2025-02-25 19:44:54,411 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 19:44:54,412 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 19:44:54,413 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:44:55,101 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:44:55,106 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:45:11,062 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:11] "GET / HTTP/1.1" 200 -
+2025-02-25 19:45:11,169 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:45:11,224 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 19:45:11,239 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:45:11,240 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:45:11,242 [WARNING] __main__: Token file missing refresh_token. Deleting token file to force re-authentication.
+2025-02-25 19:45:11,244 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:45:11,244 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:45:14,864 [INFO] google_auth_oauthlib.flow: "GET /?state=0crTfsk8PN6bqq8kTCJEttte7SN2NU&code=4%2F0ASVgi3KhikN368qHaMf6xpV1pOxgChmoeW_uXitvUD2sJOeZrBMGej5ugrm_0BMLeLoWtA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 19:45:15,063 [INFO] __main__: New credentials obtained.
+2025-02-25 19:45:15,065 [INFO] __main__: Credentials saved to token file.
+2025-02-25 19:45:15,071 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:45:15,075 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:45:16,882 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:16] "GET /courses HTTP/1.1" 200 -
+2025-02-25 19:45:17,974 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:45:22,043 [INFO] google_auth_oauthlib.flow: "GET /?state=YhxnZy5zPAryJLbP59G8DZg9M7fplG&code=4%2F0ASVgi3K1t6vZV_GSv1EVtT2OR595ys3jRpkua9Zl34uzK-A1ZMtL-u3zVWgbBWd0EDYbOw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 19:45:22,203 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 19:45:22,205 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:22] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:45:22,210 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:45:22,211 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:45:22,229 [WARNING] __main__: Token file missing refresh_token. Deleting token file to force re-authentication.
+2025-02-25 19:45:22,231 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-25 19:45:22,232 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-25 19:45:22,297 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-25 19:45:22,326 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:22] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:45:22,374 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:22] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:45:22,375 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:22] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:45:22,426 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:45:22] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=hfSpIDlEw4oRyb2EGEDg HTTP/1.1" 200 -
+2025-02-25 19:52:00,716 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:52:00,852 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:52:01,534 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:52:01,538 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:52:13,677 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:52:13,747 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:52:14,417 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:52:14,420 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:52:22,421 [INFO] __main__: Starting OAuth flow with state parameter.
+2025-02-25 19:52:22,424 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:52:22] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:52:36,775 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 19:52:36,859 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 19:52:37,537 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 19:52:37,542 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 19:52:42,941 [INFO] google_auth_oauthlib.flow: "GET /?state=6xnOiyGLAm2XxLawEr1BPVrrk6UAxj&code=4%2F0ASVgi3KFpIvCcjTW8vRu4AQQpKA1Bom04YU6wQ0RZPIE7S25t76bA5RL5HBIoPFD92s4Ow&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-25 19:52:43,161 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 19:52:43,164 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:52:43] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:52:43,170 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:52:43,171 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:52:43,197 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:52:43] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:52:43,275 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:52:43] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 19:52:43,275 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:52:43] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 19:52:43,290 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:52:43] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=ql01aYZkUtZcVAcMmo99 HTTP/1.1" 200 -
+2025-02-25 19:57:43,741 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:57:43] "GET / HTTP/1.1" 200 -
+2025-02-25 19:57:43,775 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:57:43] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 19:57:43,785 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:57:43] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-25 19:57:43,819 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:57:43,822 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:57:43,824 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:57:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-25 19:57:43,845 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:57:43] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 19:57:47,577 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 19:58:37,237 [INFO] google_auth_oauthlib.flow: "GET /?state=tYo3fLzMMWpgnMWCaXuYmxMv6itn89&code=4/0ASVgi3LtGXiHsnOE4Dt1TWw7xwGv9QfeDK6xCh6mIbyt1vDhGpTuqMBEEB5sI0iii2NinQ&scope=https://www.googleapis.com/auth/drive.file%20https://www.googleapis.com/auth/classroom.coursework.me%20https://www.googleapis.com/auth/classroom.courses.readonly HTTP/1.1" 200 65
+2025-02-25 19:58:37,525 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 19:58:37,529 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:58:37] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 19:58:37,539 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 19:58:37,541 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 19:58:37,654 [INFO] __main__: Valid credentials found.
+2025-02-25 19:58:37,676 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:58:37,698 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 19:58:39,987 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 19:58:39] "GET /courses HTTP/1.1" 200 -
+2025-02-25 20:00:53,231 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:00:53] "GET / HTTP/1.1" 200 -
+2025-02-25 20:00:53,253 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:00:53] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 20:00:53,262 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:00:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 20:00:53,275 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:00:53,276 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:00:53,277 [INFO] __main__: Valid credentials found.
+2025-02-25 20:00:53,282 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:00:53,290 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:00:55,502 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:00:55] "GET /courses HTTP/1.1" 200 -
+2025-02-25 20:01:01,434 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:01:01,439 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:01:01,443 [INFO] __main__: Valid credentials found.
+2025-02-25 20:01:01,449 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:01:01,458 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:01:03,394 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:01:03] "GET /assignments/733589825939 HTTP/1.1" 200 -
+2025-02-25 20:06:33,345 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:06:33] "GET / HTTP/1.1" 200 -
+2025-02-25 20:06:33,405 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:06:33] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 20:06:33,414 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:06:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 20:06:33,461 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:06:33,462 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:06:33,467 [INFO] __main__: Valid credentials found.
+2025-02-25 20:06:33,482 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:06:33,534 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:06:36,229 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:06:36] "GET /courses HTTP/1.1" 200 -
+2025-02-25 20:06:53,686 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:06:53,688 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:06:53,690 [INFO] __main__: Valid credentials found.
+2025-02-25 20:06:53,693 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:06:53,714 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:06:55,925 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:06:55] "GET /assignments/733656386212 HTTP/1.1" 200 -
+2025-02-25 20:07:12,494 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:12,496 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:12,496 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:12,503 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:12,515 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:15,311 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:15,317 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:15,319 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:15,322 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:15,350 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:16,121 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:16,167 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:16,176 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:16,190 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:16,207 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:16,506 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:16,517 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:16,528 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:16,538 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:16,563 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:19,438 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:19] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-02-25 20:07:19,452 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:19,457 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:19,462 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:19,469 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:19,482 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:21,270 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:21] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-02-25 20:07:21,865 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:21] "GET /assignments/733656386212 HTTP/1.1" 200 -
+2025-02-25 20:07:21,880 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:21,898 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:21,899 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:21,908 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:21,923 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:22,679 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:22] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-02-25 20:07:24,138 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:24] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+2025-02-25 20:07:24,186 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:24] "GET /assignments/733656386212 HTTP/1.1" 200 -
+2025-02-25 20:07:24,239 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:24,241 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:24,246 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:24,265 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:24,402 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:26,812 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:26] "GET /assignments/733656386212 HTTP/1.1" 200 -
+2025-02-25 20:07:26,847 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:07:26,854 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:07:26,855 [INFO] __main__: Valid credentials found.
+2025-02-25 20:07:26,873 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:26,886 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:07:29,480 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:07:29] "GET /assignments/733656386212 HTTP/1.1" 200 -
+2025-02-25 20:26:04,668 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:26:05,392 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:26:06,945 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:26:06,967 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:26:11,173 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:11] "GET / HTTP/1.1" 200 -
+2025-02-25 20:26:11,283 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 20:26:11,371 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:11] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-25 20:26:13,108 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 20:26:19,553 [INFO] google_auth_oauthlib.flow: "GET /?state=rzGRrtdCcYIvfI4KmnJQ2iPQVMgedP&code=4%2F0AQSTgQG6YItgQywi-zLloENKrmb8gIckt2QMG05TcyIjU9JgMpIg0XdwdEmojrUfC-Xe5A&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-25 20:26:19,850 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 20:26:19,856 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:19] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:26:19,934 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:26:19,934 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:26:19,984 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:19] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:26:20,009 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:20] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:26:20,011 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:20] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:26:20,104 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:20] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=ywKyqQYjgyjqeBS1ugne HTTP/1.1" 200 -
+2025-02-25 20:26:31,180 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:31] "GET / HTTP/1.1" 200 -
+2025-02-25 20:26:31,204 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:31] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 20:26:31,237 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 20:26:33,508 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 20:26:37,621 [INFO] google_auth_oauthlib.flow: "GET /?state=28KlI1OrQBEIvgJo4kboUXBHl1mD4X&code=4%2F0ASVgi3IqKxFIdAWJsE68P33gwTYmXfjlZ2nI4eeymQ_CeO9oSvKHmQ0GYBlcmzTF-yxwbg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 20:26:37,796 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 20:26:37,796 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:37] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:26:37,814 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:26:37,814 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:26:37,871 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:37] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:26:37,928 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:37] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:26:37,928 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:37] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:26:37,934 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:26:37] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=ywKyqQYjgyjqeBS1ugne HTTP/1.1[0m" 304 -
+2025-02-25 20:27:22,626 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:27:22,988 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:27:24,273 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:27:24,280 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:27:25,490 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:27:25,492 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:27:25,514 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:25] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:27:25,608 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:25] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:27:25,616 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:25] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:27:25,641 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:25] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=q5SVNY7N2ta0bpdOU8gF HTTP/1.1" 200 -
+2025-02-25 20:27:25,673 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:25] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:27:26,592 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:27:26,604 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:27:26,614 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:26] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:27:26,630 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:26] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:27:26,661 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:26] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:27:26,703 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:26] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=q5SVNY7N2ta0bpdOU8gF HTTP/1.1[0m" 304 -
+2025-02-25 20:27:26,722 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:26] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:27:30,716 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:30] "GET / HTTP/1.1" 200 -
+2025-02-25 20:27:30,740 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:30] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 20:27:30,740 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:27:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 20:27:57,669 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 20:28:03,452 [INFO] google_auth_oauthlib.flow: "GET /?state=PI4BH5NPRPljLnF0w4umVGWD26bzbD&code=4%2F0ASVgi3JIUhGUrwifyPTNVINwKL5FYruQPpvEtf1_tk5cxVFtdiW0K-Y8E51BA70ZSPkMAQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 20:28:03,640 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 20:28:03,643 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:28:03] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:28:03,680 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:28:03,682 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:28:03,719 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:28:03] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:28:03,786 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:28:03] "GET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-25 20:28:03,788 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:28:03] "GET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-25 20:28:03,851 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:28:03] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=q5SVNY7N2ta0bpdOU8gF HTTP/1.1" 200 -
+2025-02-25 20:28:03,924 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:28:03] "GET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-25 20:29:27,268 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:29:27,489 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:29:29,005 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:29:29,010 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:30:21,887 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 20:30:25,738 [INFO] google_auth_oauthlib.flow: "GET /?state=46RUspj22Kn6EeAmglt28NX7jHfZIH&code=4%2F0ASVgi3Km4Gqz4nQftdpXrzS2kO_CBsKDGKdeGRSkMpB6UpwwtdZ9pBPNdPSwAgkqN0n2YA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-25 20:30:25,905 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 20:30:25,910 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:30:25] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:30:25,945 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:30:25,947 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:30:26,018 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:30:26] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:30:26,240 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:30:26] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:30:26,240 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:30:26] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:30:26,271 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:30:26] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=9OUqGK0cu9IjyH4hVW2v HTTP/1.1" 200 -
+2025-02-25 20:31:41,050 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:31:41,225 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:31:42,665 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:31:42,671 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:31:55,916 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:31:56,037 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:31:57,304 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:31:57,311 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:32:04,704 [WARNING] __main__: Token file missing required fields
+2025-02-25 20:32:04,706 [ERROR] __main__: Error reading token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-25 20:32:04,716 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:32:04,767 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:04] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:32:04,856 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:32:04,864 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:32:04,889 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:04] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=XgppKNrrhoZIVyQI7MzF HTTP/1.1" 200 -
+2025-02-25 20:32:04,905 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:04] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:32:06,118 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-25 20:32:06,148 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:06] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:32:06,173 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:06] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:32:06,207 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:06] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:32:06,243 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:06] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=XgppKNrrhoZIVyQI7MzF HTTP/1.1[0m" 304 -
+2025-02-25 20:32:06,258 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:06] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:32:12,600 [ERROR] __main__: Authentication error: 'InstalledAppFlow' object has no attribute 'to_json'
+2025-02-25 20:32:12,623 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:32:12] "[35m[1mGET /auth HTTP/1.1[0m" 500 -
+2025-02-25 20:32:35,801 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:32:35,978 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:32:37,128 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:32:37,134 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:33:51,532 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:33:51,738 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:33:52,959 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:33:52,959 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:34:08,262 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:34:08,405 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:34:09,641 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:34:09,649 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:34:36,971 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-25 20:34:36,971 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-25 20:34:36,976 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:34:38,016 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:34:38,023 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:34:38,890 [INFO] __main__: Starting OAuth flow with forced consent
+2025-02-25 20:34:38,896 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:34:38] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:34:39,763 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:34:39] "GET / HTTP/1.1" 200 -
+2025-02-25 20:34:39,816 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:34:39] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-25 20:34:39,931 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:34:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-25 20:34:42,496 [INFO] __main__: Starting OAuth flow with forced consent
+2025-02-25 20:34:42,498 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:34:42] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:34:57,459 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:34:57,601 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:34:58,775 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:34:58,785 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:35:15,340 [INFO] google_auth_oauthlib.flow: "GET /?state=FMFBurqmq1xl8zN74DL2IRy7lXzJDY&code=4%2F0ASVgi3KFICrZ0yQJjMZPr7klAfE9zOCiADb0LXiK1K9FbUpxKhWrqJdbt38w0edkWDoUvw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 20:35:15,556 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 20:35:15,564 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:35:15] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:35:15,654 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:35:15,654 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:35:15,793 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:35:15] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:35:16,036 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:35:16] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:35:16,044 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:35:16] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:35:16,125 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:35:16] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=p85Xgl6mso1zmK3nK7lg HTTP/1.1" 200 -
+2025-02-25 20:35:16,143 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:35:16] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:42:34,632 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:42:35,152 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:42:36,866 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:42:36,879 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:42:42,074 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-25 20:42:48,143 [INFO] google_auth_oauthlib.flow: "GET /?state=4m5s9G2viiQWpcoQWluGm4jw4YiUFc&code=4%2F0AQSTgQGOGb2cBGkr63riESYScp2l7iUN5WugWyHevMaDQL4ZygJvMi6b8NmM43o_7C6bWQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-25 20:42:48,570 [INFO] __main__: Credentials saved with refresh token.
+2025-02-25 20:42:48,582 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:42:48] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-25 20:42:48,678 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:42:48,695 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:42:48,753 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:42:48] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:42:48,999 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:42:48] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:42:49,006 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:42:49] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:42:49,024 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:42:49] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=aoDK0UlCq4sNI2aj0Kba HTTP/1.1" 200 -
+2025-02-25 20:45:20,557 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:45:20,901 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:45:22,156 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:45:22,165 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:45:28,464 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:45:28,468 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:45:28,477 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:28] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:45:28,611 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:45:28,628 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:45:28,657 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:28] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=UOTHiedHGkcCqC4BzbOi HTTP/1.1" 200 -
+2025-02-25 20:45:28,687 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:45:29,936 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:45:29,940 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:45:29,958 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:29] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:45:29,998 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:29] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:45:30,010 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:45:30,294 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=UOTHiedHGkcCqC4BzbOi HTTP/1.1[0m" 304 -
+2025-02-25 20:45:30,440 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-25 20:45:46,028 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-25 20:45:46,205 [INFO] werkzeug:  * Restarting with stat
+2025-02-25 20:45:47,576 [WARNING] werkzeug:  * Debugger is active!
+2025-02-25 20:45:47,585 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-25 20:45:51,062 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-25 20:45:51,069 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-25 20:45:51,073 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:51] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-25 20:45:51,169 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:51] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-25 20:45:51,188 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:51] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-25 20:45:51,214 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:51] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=0GvDKlAV4mYMmAoGFDfK HTTP/1.1" 200 -
+2025-02-25 20:45:51,227 [INFO] werkzeug: 127.0.0.1 - - [25/Feb/2025 20:45:51] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:06:15,010 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:06:15,010 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:06:15,010 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:06:15,591 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:06:15,607 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:06:18,674 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:18] "GET / HTTP/1.1" 200 -
+2025-02-26 04:06:18,690 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:18] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:06:18,748 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:06:18,833 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-26 04:06:25,427 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:06:30,158 [INFO] google_auth_oauthlib.flow: "GET /?state=cd43VSJSmhzuch8q2oGpFJK9BvTgC0&code=4%2F0ASVgi3JxSmB6SUItkJkyGcMyRhpcd_fXvptgXCW655m4kl5bjqrxjqD9jR00d-IsRfS1Aw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:06:30,558 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:06:30,561 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:30] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:06:30,567 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:06:30,569 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:06:30,602 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:30] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:06:30,616 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:06:30,616 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:06:30,631 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:06:30] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=q1tVeLtmGGThAjNIjfvt HTTP/1.1" 200 -
+2025-02-26 04:10:55,637 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:10:55,911 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:10:56,941 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:10:56,956 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:11:00,304 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:11:00,304 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:11:00,323 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:00] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:11:00,413 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:00] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:11:00,415 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:00] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:11:00,446 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:00] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=BHiOx69MCfDVSJrSGYEp HTTP/1.1" 200 -
+2025-02-26 04:11:00,469 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:00] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,110 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:11:01,110 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:11:01,126 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:11:01,138 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,138 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,157 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=BHiOx69MCfDVSJrSGYEp HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,165 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,657 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:11:01,657 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:11:01,662 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:11:01,676 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,678 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,695 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=BHiOx69MCfDVSJrSGYEp HTTP/1.1[0m" 304 -
+2025-02-26 04:11:01,714 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:11:06,491 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:11:11,675 [INFO] google_auth_oauthlib.flow: "GET /?state=PvU4dfX9dfqpj1bHj0Q16A5zD279Ta&code=4%2F0ASVgi3JOFlAaSy-hInVKj-1Aa5hO-AgjV1HUx4UU0foaDWlJpGnh_TUyIFpQNTUq_BMivA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:11:11,959 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:11:11,959 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:11] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:11:11,959 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:11:11,959 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:11:11,978 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:11] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:11:12,003 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:12] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:11:12,004 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:12] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:11:12,019 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:12] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=BHiOx69MCfDVSJrSGYEp HTTP/1.1[0m" 304 -
+2025-02-26 04:11:59,159 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:59] "GET / HTTP/1.1" 200 -
+2025-02-26 04:11:59,227 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:59] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:11:59,234 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:59] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-26 04:11:59,267 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:11:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-26 04:12:03,018 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:12:06,476 [INFO] google_auth_oauthlib.flow: "GET /?state=VnHPBleI6CHGbzqkkz4NwdK8HYvGYH&code=4%2F0AQSTgQG4NgL5WBjhBSdzoWkycOSW-9v3WcAoz_RMdpcn_i7lFw1ftUM-UWQqN-34CIbWDA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:12:06,655 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:12:06,656 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:12:06] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:12:06,665 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:12:06,667 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:12:06,759 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:12:06] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:12:06,783 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:12:06] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:12:06,787 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:12:06] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:12:06,828 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:12:06] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=BHiOx69MCfDVSJrSGYEp HTTP/1.1" 200 -
+2025-02-26 04:15:16,843 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:15:17,024 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:15:18,062 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:15:18,069 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:15:29,474 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:15:29,475 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:15:29,478 [WARNING] __main__: Token file exists but doesn't contain refresh token.
+2025-02-26 04:15:29,486 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:29] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:15:29,569 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:29] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:15:29,569 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:29] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:15:29,586 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:29] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=zbaSM7KV4EVaGSskEzlX HTTP/1.1" 200 -
+2025-02-26 04:15:29,598 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:29] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:15:30,430 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:15:30,431 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:15:30,432 [WARNING] __main__: Token file exists but doesn't contain refresh token.
+2025-02-26 04:15:30,438 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:30] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:15:30,449 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:15:30,452 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:15:30,471 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=zbaSM7KV4EVaGSskEzlX HTTP/1.1[0m" 304 -
+2025-02-26 04:15:30,485 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:15:30] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:16:20,746 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:16:20,747 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:16:20,748 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:16:21,376 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:16:21,376 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:17:34,035 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:17:34,100 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:17:34,771 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:17:34,776 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:17:42,225 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:17:42] "GET / HTTP/1.1" 200 -
+2025-02-26 04:17:42,247 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:17:42] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:17:42,291 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:17:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:17:44,065 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:17:44,070 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:17:44] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:17:51,060 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:17:51,176 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:17:51,958 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:17:51,960 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:17:56,451 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:17:56,454 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:17:56] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:18:02,075 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:18:02,151 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:18:02,990 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:18:02,994 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:18:07,422 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:18:07,424 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:18:07] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:18:18,211 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:18:18,326 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:18:19,052 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:18:19,069 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:18:21,003 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:18:21] "GET / HTTP/1.1" 200 -
+2025-02-26 04:18:21,029 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:18:21] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:18:21,063 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:18:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:18:22,311 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:18:22,311 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:18:22] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:18:56,568 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:18:56,634 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:18:57,393 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:18:57,397 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:19:10,878 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:19:10,878 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:19:10,881 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:19:11,471 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:19:11,471 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:19:47,451 [INFO] google_auth_oauthlib.flow: "GET /?state=McQKzwzHITbrdOlqo73TFgWIl71B18&code=4%2F0ASVgi3LIBRxVt7mqcCZus-VLVniXVO09_-P43ZyFBfZSeU2nNC4Uv8F4LfLPpzw0pr6kTQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-26 04:19:47,715 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:19:47,718 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:19:47] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:19:47,725 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:19:47,725 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:19:47,774 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:19:47] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:19:47,947 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:19:47] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:19:47,949 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:19:47] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:19:47,963 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:19:47] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=FGsX360CutOMqLrBBtSV HTTP/1.1" 200 -
+2025-02-26 04:21:39,730 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:21:39,878 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:21:41,166 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:21:41,170 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:22:11,270 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:11] "GET / HTTP/1.1" 200 -
+2025-02-26 04:22:11,350 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:22:11,442 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:11] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-26 04:22:11,519 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-26 04:22:39,684 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:39] "GET / HTTP/1.1" 200 -
+2025-02-26 04:22:39,696 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:39] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:22:39,700 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:39] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-26 04:22:41,559 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:22:45,853 [INFO] google_auth_oauthlib.flow: "GET /?state=7wXZd6Ni6MSl8X2Oz9SArnw5Bejg0E&code=4%2F0ASVgi3Ik5h_ZROQQpkhbm8DAdqI3BUxRkdURUgg_PJZb0BHikIC3JYdrXoTxK1QYK9IS0w&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-26 04:22:46,069 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:22:46,072 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:46] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:22:46,081 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:22:46,082 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:22:46,113 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:46] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:22:46,127 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:46] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:22:46,127 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:46] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:22:46,145 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:22:46] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=CCFfdG3FGxw9ns8dQMYc HTTP/1.1" 200 -
+2025-02-26 04:32:46,741 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:32:47,110 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:32:48,236 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:32:48,252 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:32:56,784 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:32:56,784 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:32:56,787 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:32:57,369 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:32:57,369 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:33:12,555 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:12,556 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:12,584 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:12] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:12,837 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:12] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:12,840 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:12] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:12,895 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:12] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1" 200 -
+2025-02-26 04:33:12,915 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:12] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:13,569 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:13,572 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:13,586 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:13] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:13,601 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:13] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:13,603 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:13] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:13,615 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:13] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:13,629 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:13] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,169 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:14,170 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:14,186 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:14,206 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,207 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,219 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,231 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,564 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:14,565 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:14,576 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:14,595 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,596 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,614 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,630 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,943 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:14,944 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:14,948 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:14,958 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,959 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,966 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:14,980 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:14] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,290 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:15,291 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:15,296 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:15,313 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,314 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,324 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,340 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,547 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:15,547 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:15,550 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:15,563 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,564 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,573 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,591 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,750 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:33:15,750 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:33:15,755 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:33:15,767 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,767 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,779 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=bVok2tsmF7GRoZv7fztG HTTP/1.1[0m" 304 -
+2025-02-26 04:33:15,793 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:15] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:33:17,798 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:33:17,803 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:33:17] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:36:29,014 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:36:29] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:37:39,764 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:37:39,764 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:37:39,764 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:37:40,388 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:37:40,393 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:37:41,616 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:37:41] "GET / HTTP/1.1" 200 -
+2025-02-26 04:37:41,674 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:37:41] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:37:41,741 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:37:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:37:47,647 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:37:47] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:43:29,318 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:43:29,318 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:43:29,318 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:43:29,927 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:43:29,939 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:43:32,005 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:32] "GET / HTTP/1.1" 200 -
+2025-02-26 04:43:32,055 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:32] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:43:32,105 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:43:32,564 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:32] "GET / HTTP/1.1" 200 -
+2025-02-26 04:43:32,575 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:32] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:43:32,579 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:43:33,702 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:43:33] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:44:37,816 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:44:37,932 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:44:38,866 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:44:38,870 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:44:48,600 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:48] "GET / HTTP/1.1" 200 -
+2025-02-26 04:44:48,610 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:48] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:44:48,652 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:44:49,449 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:49] "GET / HTTP/1.1" 200 -
+2025-02-26 04:44:49,473 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:49] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:44:49,475 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:44:55,093 [INFO] google_auth_oauthlib.flow: "GET /?state=roqkl9qjM3UFp0TEhD3FJ4rBblIMN5&code=4%2F0AQSTgQEncbcvMG6OEKqhV3COlw_sk8hbPek69txVpj1zZL2N2etxWJo2ntlBq6Say3CtHA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-26 04:44:55,294 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:44:55,297 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:55] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:44:55,305 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:44:55,306 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:44:55,352 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:55] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:44:55,365 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:55] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:44:55,367 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:55] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:44:55,390 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:44:55] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=A6YGcfREbqmdSgvTehmA HTTP/1.1" 200 -
+2025-02-26 04:45:55,930 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:45:56,063 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:45:56,978 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:45:56,993 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:46:26,377 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:46:26,378 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:46:26,379 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:46:27,261 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:46:27,267 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:46:29,611 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:46:29,612 [INFO] __main__: Token file does not exist.
+2025-02-26 04:46:29,612 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:46:29,613 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:46:29,615 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=U1fBBzmLVxd5D3MyHy88JJWPDMN2gN&access_type=offline&prompt=consent
+2025-02-26 04:46:36,239 [INFO] google_auth_oauthlib.flow: "GET /?state=apyF6MlHlQqExi8lB8hhXvUKhVLpyt&code=4%2F0ASVgi3LSz0iWh9kD9u5mNC_yrEkFmMZild6gBosNeFmisDioxFOsPtyySjCfXIvMekX3nQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:46:36,456 [INFO] __main__: New credentials obtained.
+2025-02-26 04:46:36,457 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-26 04:46:36,461 [INFO] __main__: Credentials saved to token file.
+2025-02-26 04:46:36,472 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:46:36,480 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:46:38,620 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:46:38] "GET /courses HTTP/1.1" 200 -
+2025-02-26 04:46:56,845 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:46:56] "GET / HTTP/1.1" 200 -
+2025-02-26 04:46:56,911 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:46:56] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:46:57,050 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:46:57] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-26 04:46:58,312 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:47:02,885 [INFO] google_auth_oauthlib.flow: "GET /?state=WvKFoktQwhCV8N15mFvGiWMicFUcz7&code=4%2F0ASVgi3JVpAV_rdlLHPipOyZZAlBWRt25zNWqWfHdH1schCufORS-mspBS8q3htdQOVyRcg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:47:03,079 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:47:03,081 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:03] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:47:03,090 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:47:03,091 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:47:03,137 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:03] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:47:03,163 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:03] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:47:03,166 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:03] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:47:03,191 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:03] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=OYAMm3rlxfo4QTF7ek1f HTTP/1.1" 200 -
+2025-02-26 04:47:40,128 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:40] "GET / HTTP/1.1" 200 -
+2025-02-26 04:47:40,146 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:40] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:47:40,148 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:47:46,823 [INFO] google_auth_oauthlib.flow: "GET /?state=IsAx8KdEoiT2vsvnkrVKr1AyBLnqfy&code=4%2F0AQSTgQEeXGRoTSnm9zfyfu_aoswo9Pt-0p4s6Bv3ywhCXNvsw3_rRQTJnY63F9Q-JcEsfQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-26 04:47:46,981 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:47:46,982 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:46] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:47:46,986 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:47:46,987 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:47:47,004 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:47] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:47:47,025 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:47] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:47:47,030 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:47] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:47:47,041 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:47:47] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=OYAMm3rlxfo4QTF7ek1f HTTP/1.1[0m" 304 -
+2025-02-26 04:49:20,696 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:49:20,838 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:49:21,803 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:49:21,810 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:49:28,018 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:49:28,019 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:49:28,020 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:49:28,030 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:49:28] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:49:28,096 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:49:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:49:28,097 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:49:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:49:28,117 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:49:28] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=O5JbT13MYtEN3q9Zi5G9 HTTP/1.1" 200 -
+2025-02-26 04:49:28,127 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:49:28] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:50:42,871 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:50:42,879 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:50:42,881 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:50:43,505 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:50:43,511 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:50:43,528 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:50:43] "GET / HTTP/1.1" 200 -
+2025-02-26 04:50:43,542 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:50:43] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:50:43,582 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:50:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:50:47,146 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:50:56,977 [INFO] google_auth_oauthlib.flow: "GET /?state=mm6bnP6e5Wcton2Rbb7zwGArCBFCkY&code=4/0ASVgi3KZhmg54XpP1CUgW-YJX2cxGatgXi4kPtaEqGPCgC0s9cmcipOZz3obMdhf9j79dQ&scope=https://www.googleapis.com/auth/classroom.coursework.me%20https://www.googleapis.com/auth/classroom.courses.readonly%20https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2025-02-26 04:50:57,189 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:50:57,191 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:50:57] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:50:57,197 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:50:57,198 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:50:57,225 [INFO] __main__: Valid credentials found.
+2025-02-26 04:50:57,232 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:50:57,239 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:50:59,639 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:50:59] "GET /courses HTTP/1.1" 200 -
+2025-02-26 04:51:14,753 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:51:15,986 [INFO] google_auth_oauthlib.flow: "GET /?state=27LhGEQZ3ZSD9GhYUrgGNxdUrucDaV&code=4%2F0AQSTgQFuhVHN4S2pIeUFywbBKTFKYj0Kf5zDl0Hf-4Zyr8zrqcgCFNBc1XhP17bjvd1N0g&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:51:16,173 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:51:16,175 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:16] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:51:16,180 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:51:16,181 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:51:16,199 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:51:16,217 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:16] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:51:16,231 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:16] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:51:16,231 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:16] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:51:16,247 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:16] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=iDD26F4E9FzpaHyaxLjD HTTP/1.1" 200 -
+2025-02-26 04:51:16,299 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:16] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:51:26,387 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:26] "GET / HTTP/1.1" 200 -
+2025-02-26 04:51:26,400 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:26] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:51:26,404 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:51:34,562 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:51:35,768 [INFO] google_auth_oauthlib.flow: "GET /?state=wY3SINUxCORDudJXtBmOhu144wVLET&code=4%2F0ASVgi3Lauzq56-Ylhn4k9WqsYJDLs_KPDAG9IDEpIfxFQVNaXE5Se_K66EmhiVPUzv7nEw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:51:35,929 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:51:35,930 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:35] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:51:35,933 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:51:35,934 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:51:35,947 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:51:35,950 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:35] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:51:35,966 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:35] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:51:35,968 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:35] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:51:35,978 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:51:35] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=iDD26F4E9FzpaHyaxLjD HTTP/1.1[0m" 304 -
+2025-02-26 04:52:41,177 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:52:41,309 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:52:42,152 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:52:42,159 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:53:03,000 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:53:03,001 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:53:03,003 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:53:03,004 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:53:03,004 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:53:03,005 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:53:03,006 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=LqZ47616XbrDS7YQjNV5dWmCuqpUgZ&access_type=offline&prompt=consent
+2025-02-26 04:53:04,260 [INFO] google_auth_oauthlib.flow: "GET /?state=CdXN2VjSBcicszt9qQ9rKS445NanAD&code=4%2F0AQSTgQH3Vp1wDziGbtFbPEJCtQ6WBxhoQ4Vp21IvOH35UMaJOiICIJIAyMLmWFpCuX5QMw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-26 04:53:04,415 [INFO] __main__: New credentials obtained.
+2025-02-26 04:53:04,416 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-26 04:53:04,417 [INFO] __main__: Credentials saved to token file.
+2025-02-26 04:53:04,420 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:53:04,424 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:53:06,240 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:06] "GET /courses HTTP/1.1" 200 -
+2025-02-26 04:53:20,582 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:53:21,916 [INFO] google_auth_oauthlib.flow: "GET /?state=NLsmmEvO3C91JEkpIzOgtqepnZcfjd&code=4%2F0ASVgi3KUodKlxamcN_5556nDH7OpNZf3Cm6ETUb50yAE_yJmV-MmZm76i1MjDd8MgAwIqA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:53:22,094 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:53:22,096 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:22] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:53:22,101 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:53:22,102 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:53:22,114 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:53:22,116 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:53:22,117 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:53:22,117 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:53:22,119 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=WnMOYmG1PqTl947b8A9ES7XFivsHbm&access_type=offline&prompt=consent
+2025-02-26 04:53:22,177 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-26 04:53:22,195 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:22] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:53:22,372 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:22] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:53:22,378 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:22] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:53:22,394 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:22] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=ibLwtUN4yRMuK7tWMUDO HTTP/1.1" 200 -
+2025-02-26 04:53:22,414 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:22] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:53:46,251 [INFO] google_auth_oauthlib.flow: "GET /?state=ybdMS69DJXV5AvczDsdI0Fe171bGnQ&code=4%2F0AQSTgQHDIUVJt2KzRnWIev5lMh8cm5Ex-Q-5fhIIQ9TaihuK3un9UUVLRSVOphKRZ6S3xw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-26 04:53:46,433 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:53:46,433 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:46] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:53:46,442 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:53:46,445 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:53:46,459 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:53:46,460 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:53:46,460 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:53:46,461 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:53:46,461 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=SqZKv25OionUlFiL4K06d4Vd6OOYbY&access_type=offline&prompt=consent
+2025-02-26 04:53:46,518 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-26 04:53:46,524 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:46] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:53:46,572 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:46] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:53:46,572 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:46] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:53:46,597 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:46] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=ibLwtUN4yRMuK7tWMUDO HTTP/1.1[0m" 304 -
+2025-02-26 04:53:58,619 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:58] "GET / HTTP/1.1" 200 -
+2025-02-26 04:53:58,643 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:58] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:53:58,643 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:53:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:54:00,885 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:54:01,775 [INFO] google_auth_oauthlib.flow: "GET /?state=y8G0X3jeuks5B0oALHcq1pGSibG7jV&code=4%2F0AQSTgQFkyNEShP_6PJCi7iIVUX4MyVneYwuZ_-0mvMtgl3W__Om19J_Fp5GgHbvCaI-NCQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-26 04:54:01,971 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:54:01,972 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:54:01] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:54:01,977 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:54:01,978 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:54:01,991 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:54:01,992 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:54:01,992 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:54:01,992 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:54:01,993 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=S0tiLtTMKJXBkL18ZFZk89ywvbaDOK&access_type=offline&prompt=consent
+2025-02-26 04:54:02,179 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-26 04:54:02,183 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:54:02] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:54:02,203 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:54:02] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:54:02,203 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:54:02] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:54:02,223 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:54:02] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=ibLwtUN4yRMuK7tWMUDO HTTP/1.1[0m" 304 -
+2025-02-26 04:55:55,229 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:55:55,229 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:55:55,229 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:55:56,316 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:55:56,325 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:55:57,731 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:55:57] "GET / HTTP/1.1" 200 -
+2025-02-26 04:55:57,778 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:55:57] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:55:57,843 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:55:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:55:59,854 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:56:00,990 [INFO] google_auth_oauthlib.flow: "GET /?state=l17IhqjeoVmtEhPmmz5XZXUD6gpoYW&code=4%2F0ASVgi3LZnIDQaC5OC0TbNdzR5F89zIw_m1e7iyHh8LXa_vnAOPnGuO7xwHMF6uctNCe9Cw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-26 04:56:01,395 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:56:01,397 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:56:01] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:56:01,406 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:56:01,406 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:56:01,443 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:56:01,445 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:56:01,445 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:56:01,445 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:56:01,445 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=ALCZrILLSLUlimrgOqk2tBcVf0CyVc&access_type=offline&prompt=consent
+2025-02-26 04:56:01,514 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-26 04:56:01,528 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:56:01] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:56:01,564 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:56:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:56:01,572 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:56:01] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:56:01,656 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:56:01] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=Itlhm7BC793NQu52uACe HTTP/1.1" 200 -
+2025-02-26 04:56:58,124 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 04:56:58,335 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:57:00,142 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:57:00,151 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:57:07,478 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:57:07,478 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:57:07,478 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:57:07,487 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:57:07,490 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:57:07,492 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:57:07,495 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=vuDD2pnKolKUE4lBD0AvCsIkNDUmd9&access_type=offline&prompt=consent
+2025-02-26 04:57:08,562 [INFO] google_auth_oauthlib.flow: "GET /?state=6ANaQnhJQXrTxli7VaJuLh1PeLF6Nq&code=4%2F0ASVgi3Lz6I6ojgheJyI94arkjyivT9bo5S_X31TqvZymlhH9fFhTiytrYOUMMSDXeb0pBg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-26 04:57:08,729 [INFO] __main__: New credentials obtained.
+2025-02-26 04:57:08,729 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-26 04:57:08,729 [INFO] __main__: Credentials saved to token file.
+2025-02-26 04:57:08,735 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:57:08,754 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:57:11,047 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:11] "GET /courses HTTP/1.1" 200 -
+2025-02-26 04:57:17,230 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:57:17,230 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:57:17,230 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:57:17,238 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:57:17,238 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:57:17,238 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:57:17,238 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=yVBr0OpTHvNrpunY1QlWkVjOZjgLBd&access_type=offline&prompt=consent
+2025-02-26 04:57:18,167 [INFO] google_auth_oauthlib.flow: "GET /?state=FTeY4QZblDnYT0BFJ2nsBnE22WHtKN&code=4%2F0AQSTgQEGIhfm5LnTIYPWWHYRlF8HAhrIrChVKQWRNqwrYAi11C29WCFSDj8UDGnF0D8ESg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-26 04:57:18,332 [INFO] __main__: New credentials obtained.
+2025-02-26 04:57:18,336 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-26 04:57:18,337 [INFO] __main__: Credentials saved to token file.
+2025-02-26 04:57:18,350 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:57:18,360 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-26 04:57:20,461 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:20] "GET /courses HTTP/1.1" 200 -
+2025-02-26 04:57:36,267 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-26 04:57:37,158 [INFO] google_auth_oauthlib.flow: "GET /?state=2YjQRM6mdf8XuXxBvBeZ5d2SchrguE&code=4%2F0AQSTgQGySJ7sITl-k0B-xlRiG1q6Nzu_DoSQwhGwfbyss1XxG3ssDUS1awUGqMnJC12PDg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-26 04:57:37,326 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:57:37,332 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:37] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:57:37,339 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:57:37,341 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:57:37,367 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:57:37,368 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:57:37,368 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:57:37,371 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:57:37,374 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=hC65FGjcaQ8cuwy2t67cK6hl8Wx5CY&access_type=offline&prompt=consent
+2025-02-26 04:57:37,542 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-26 04:57:37,563 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:37] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:57:37,666 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:37] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:57:37,666 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:37] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:57:37,682 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:37] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=hVDT2RgMUg8ihWfjpL3i HTTP/1.1" 200 -
+2025-02-26 04:57:37,716 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:57:37] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:58:45,921 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-26 04:58:45,921 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-26 04:58:45,928 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 04:58:47,008 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 04:58:47,017 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-26 04:58:47,046 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:58:47,049 [INFO] __main__: Token file does not exist.
+2025-02-26 04:58:47,049 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:58:47,049 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:58:47,054 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=prIC6j9zhDsL5dwZBwho1mKiHKDpTe&access_type=offline&prompt=consent
+2025-02-26 04:58:48,142 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:58:48] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:58:48,261 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:58:48] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:58:48,267 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:58:48] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:58:48,287 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:58:48] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=Z3prhnzkKr3lZQXwsLgO HTTP/1.1" 200 -
+2025-02-26 04:58:48,370 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:58:48] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-26 04:59:01,393 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:01] "GET / HTTP/1.1" 200 -
+2025-02-26 04:59:01,587 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:01] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-26 04:59:01,591 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-26 04:59:04,939 [INFO] google_auth_oauthlib.flow: "GET /?state=xyXnzYo1JGzONqEDTcadOMMewQG1gO&code=4%2F0AQSTgQHNXfmR7O1_KvBE1tjZyQEVeiVvpbn3UMuToFiTQ2WYCMYvEkRlIS41WwRVsnAhdQ&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-26 04:59:05,098 [INFO] __main__: Credentials saved with refresh token.
+2025-02-26 04:59:05,104 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:05] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-26 04:59:05,111 [INFO] __main__: Checking if token file exists at: C:\Users\openc\Pictures\Education\token.json
+2025-02-26 04:59:05,121 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-26 04:59:05,135 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-26 04:59:05,193 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\Pictures\\Education\\token.json'
+2025-02-26 04:59:05,251 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-26 04:59:05,293 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-26 04:59:05,344 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=0AxRn8OJFX0YuVsQRbRevYeg7zEvN2&access_type=offline&prompt=consent
+2025-02-26 04:59:05,424 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-26 04:59:05,439 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:05] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-26 04:59:05,553 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:05] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-26 04:59:05,579 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:05] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-26 04:59:05,676 [INFO] werkzeug: 127.0.0.1 - - [26/Feb/2025 04:59:05] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png&s=Z3prhnzkKr3lZQXwsLgO HTTP/1.1[0m" 304 -
+2025-02-26 05:01:58,584 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\Pictures\\Education\\app.py', reloading
+2025-02-26 05:01:58,862 [INFO] werkzeug:  * Restarting with stat
+2025-02-26 05:02:00,914 [WARNING] werkzeug:  * Debugger is active!
+2025-02-26 05:02:00,930 [INFO] werkzeug:  * Debugger PIN: 827-941-227

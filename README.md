@@ -1,2 +1,2 @@
 # Education
-mozammels project
+this is an educational project, 

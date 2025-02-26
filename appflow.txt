@@ -1,0 +1,21 @@
+# Google Classroom Assignment Uploader - Application Flow Documentation
+
+## Overview
+This application streamlines the process of uploading assignments to Google Classroom. It is designed for students as part of a project to build an AI that retrieves assignments, completes them, and submits them automatically. The app uses Google Classroom and Drive APIs, requiring user authentication via OAuth 2.0.
+
+## Tech Stack
+- **Backend**: Python (Flask) - Handles API requests, authentication, and interactions with Google APIs.
+- **Frontend**: HTML, CSS, JavaScript - Provides a user-friendly interface for course selection, assignment viewing, and file submission.
+- **APIs**: Google Classroom API, Google Drive API - For retrieving assignments and uploading files.
+- **Authentication**: OAuth 2.0 with JSON token storage (token.json).
+
+## Setup Instructions
+1. **Google Cloud Setup**:
+   - Create a project in Google Cloud Console (https://console.cloud.google.com/).
+   - Enable Google Classroom API and Google Drive API.
+   - Create an OAuth 2.0 Client ID (Desktop app) and download `credentials.json`.
+   - Place `credentials.json` in the project root directory.
+
+2. **Install Dependencies**:
+   ```bash
+   pip install flask google-api-python-client google-auth-oauthlib google-auth-httplib2

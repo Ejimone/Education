@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Assignment Uploader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Google Classroom Assignment Uploader</h1>
+    
+    <button onclick="startAuth()">Authenticate</button>
+    
+    <h2>Courses</h2>
+    <select id="courseSelect" onchange="loadAssignments()">
+        <option value="">Select a course</option>
+    </select>
+    
+    <h2>Assignments</h2>
+    <ul id="assignmentList"></ul>
+    
+    <h2>Submit Assignment</h2>
+    <form action="/submit" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="course_id" id="courseId" value="">
+        <input type="hidden" name="assignment_id" id="assignmentId" value="">
+        <input type="file" name="file" required>
+        <button type="submit">Submit Assignment</button>
+    </form>
+    <p id="message"></p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
