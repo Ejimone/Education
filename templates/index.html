@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classroom Assignment Uploader</title>
+    <title>Mr Assignment</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Google Classroom Assignment Uploader</h1>
+    <h1>Mr Assignment</h1>
     
     <button onclick="startAuth()">Authenticate</button>
     
     <h2>Courses</h2>
     <select id="courseSelect" onchange="loadAssignments()">
         <option value="">Select a course</option>
+        {% for course in courses %}
+            <option value="{{ course.id }}">{{ course.name }}</option>
+        {% endfor %}
     </select>
     
     <h2>Assignments</h2>

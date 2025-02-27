@@ -91,10 +91,11 @@ def authenticate():
             # Use a fixed port (e.g., 8080) to match Google Cloud Console redirect URI
             creds = flow.run_local_server(
                 port=8080,
-                authorization_prompt_message="Please authorize this application to access your Google account"
+                authorization_prompt_message="Please authorize this application to access your Google account",
+                state=False # Disable CSRF protection for local testing
             )
             logger.info("New credentials obtained.")
-            
+
             # Verify we got a refresh token
             if not creds.refresh_token:
                 logger.warning("No refresh token obtained, this may cause issues later.")
@@ -117,8 +118,12 @@ def get_services(creds):
 
 @app.route('/')
 def index():
-    """Render the main page."""
-    return render_template('index.html')
+    """Render the main page with courses."""
+    creds = authenticate()
+    classroom_service, _ = get_services(creds)
+    results = classroom_service.courses().list(studentId='me').execute()
+    courses = results.get('courses', [])
+    return render_template('index.html', courses=courses)
 
 @app.route('/auth')
 def auth():
@@ -148,8 +153,8 @@ def auth():
         with open(TOKEN_PATH, 'w', encoding='utf-8') as token:
             token.write(creds.to_json())
         logger.info("Credentials saved with refresh token.")
-        
-        return redirect(url_for('courses'))
+
+        return redirect(url_for('index'))
     except Exception as e:
         logger.error(f"Authentication error: {str(e)}")
         return jsonify({'error': f'Authentication failed: {str(e)}'}), 500

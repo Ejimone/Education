@@ -1281,3 +1281,245 @@
 2025-02-26 05:01:58,862 [INFO] werkzeug:  * Restarting with stat
 2025-02-26 05:02:00,914 [WARNING] werkzeug:  * Debugger is active!
 2025-02-26 05:02:00,930 [INFO] werkzeug:  * Debugger PIN: 827-941-227
+2025-02-27 04:38:48,814 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-27 04:38:48,815 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-27 04:38:48,818 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 04:38:50,088 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:38:50,119 [INFO] werkzeug:  * Debugger PIN: 170-763-050
+2025-02-27 04:38:55,535 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:38:55] "GET / HTTP/1.1" 200 -
+2025-02-27 04:38:55,604 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:38:55] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 04:38:55,749 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:38:55] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-27 04:38:56,167 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:38:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 04:39:00,557 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-27 04:39:09,144 [INFO] google_auth_oauthlib.flow: "GET /?state=RqqpDbzlvx7s8NvI2SmbQUoqyLZ6E3&code=4/0AQSTgQGCjkj1KH2DjR-zGep7WnQo9xIUjdDRhB7fFdL_Huf0GvNr9Qc4xXJZYI76tB91GQ&scope=https://www.googleapis.com/auth/classroom.coursework.me%20https://www.googleapis.com/auth/classroom.courses.readonly%20https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2025-02-27 04:39:09,377 [INFO] __main__: Credentials saved with refresh token.
+2025-02-27 04:39:09,379 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:39:09] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-27 04:39:09,387 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:39:09,389 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:39:09,466 [INFO] __main__: Valid credentials found.
+2025-02-27 04:39:09,477 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:39:09,548 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:39:12,339 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:39:12] "GET /courses HTTP/1.1" 200 -
+2025-02-27 04:40:00,297 [INFO] __main__: Deleted existing token.json to force re-authentication.
+2025-02-27 04:40:01,077 [INFO] google_auth_oauthlib.flow: "GET /?state=KE2gJVI83hnOncPxHv9C39oeqw7un5&code=4%2F0AQSTgQFRTgy2Dwza8fnaTMOfFZdz2ch9u1N07dljkvPS3f3kHpfO6-J5Ci1KZO6eEmb7nA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 04:40:01,222 [INFO] __main__: Credentials saved with refresh token.
+2025-02-27 04:40:01,224 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:01] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-27 04:40:01,233 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:40:01,242 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:40:01,272 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:40:01,276 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:40:01,276 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:40:01,276 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:40:01,280 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=tPqY33y5qJPFFPXmp2awP48SHF7BwJ&access_type=offline&prompt=consent
+2025-02-27 04:40:01,470 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:01] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-27 04:40:03,574 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:03] "GET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-27 04:40:03,637 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:03] "GET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-27 04:40:03,735 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:03] "GET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-27 04:40:03,737 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:03] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=c2y0uWjtbjof8z4Ibttc HTTP/1.1" 200 -
+2025-02-27 04:40:03,757 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:40:03] "[36mGET /courses?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-27 04:41:19,488 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-27 04:41:19,490 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-27 04:41:19,490 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 04:41:20,703 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:41:20,717 [INFO] werkzeug:  * Debugger PIN: 170-763-050
+2025-02-27 04:41:24,543 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:24] "GET / HTTP/1.1" 200 -
+2025-02-27 04:41:24,608 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:24] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 04:41:24,743 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:24] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-27 04:41:24,767 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 04:41:28,916 [INFO] google_auth_oauthlib.flow: "GET /?state=DVb81HZy4B8H8GHkjbJYwPUym1EbKp&code=4%2F0AQSTgQGjOfFGcWr96tu40fHRBWbtc-SjMbR1SF0MxSnAqIrRTrIXyjY9h0C0sNojoMRHsg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 04:41:29,106 [INFO] __main__: Credentials saved with refresh token.
+2025-02-27 04:41:29,108 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:29] "[32mGET /auth HTTP/1.1[0m" 302 -
+2025-02-27 04:41:29,114 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:41:29,114 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:41:29,131 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:41:29,133 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:41:29,135 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:41:29,135 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:41:29,137 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=AICF3nyijGTdolvjJukRoxb3YZGYWX&access_type=offline&prompt=consent
+2025-02-27 04:41:29,199 [INFO] google_auth_oauthlib.flow: "GET /favicon.ico HTTP/1.1" 200 65
+2025-02-27 04:41:29,223 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:29] "[35m[1mGET /courses HTTP/1.1[0m" 500 -
+2025-02-27 04:41:29,251 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:29] "[36mGET /courses?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-27 04:41:29,253 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:29] "[36mGET /courses?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-27 04:41:29,324 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:41:29] "GET /courses?__debugger__=yes&cmd=resource&f=console.png&s=Otaquyk6r3gHMVUvUUuA HTTP/1.1" 200 -
+2025-02-27 04:45:09,198 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:45:11,625 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 04:45:13,665 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:45:13,710 [INFO] werkzeug:  * Debugger PIN: 170-763-050
+2025-02-27 04:45:36,774 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-27 04:45:36,774 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-27 04:45:36,843 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2025-02-27 04:45:38,409 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:45:38,411 [INFO] werkzeug:  * Debugger PIN: 100-542-443
+2025-02-27 04:45:48,305 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:45:48,308 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:45:48,308 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:45:48,308 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:45:48,312 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:45:48,313 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:45:48,316 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=v3qs1Z1IVM8V4F8LIEGNWFtzIYsoeV&access_type=offline&prompt=consent
+2025-02-27 04:45:49,972 [INFO] google_auth_oauthlib.flow: "GET /?state=6NqXwPLG2KGUGXgNkPt0jaMVczxXWC&code=4%2F0AQSTgQEAQeRqE2_yrDeumUlsXNxaYjK0qDlptLQc9CIv35qzTVUNCApu1QXcVnQVQa_4gA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly HTTP/1.1" 200 65
+2025-02-27 04:45:50,164 [INFO] __main__: New credentials obtained.
+2025-02-27 04:45:50,164 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:45:50,166 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:45:50,173 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:45:50,181 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:45:52,523 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:45:52] "GET /courses HTTP/1.1" 200 -
+2025-02-27 04:46:28,890 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\wrapper.py', reloading
+2025-02-27 04:46:29,961 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2025-02-27 04:46:31,473 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:46:31,481 [INFO] werkzeug:  * Debugger PIN: 100-542-443
+2025-02-27 04:46:34,015 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\wrapper.py', reloading
+2025-02-27 04:46:34,021 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\wrapper.py', reloading
+2025-02-27 04:46:34,619 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\wrapper.py', reloading
+2025-02-27 04:46:34,705 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2025-02-27 04:46:34,784 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 04:46:36,323 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:46:36,334 [INFO] werkzeug:  * Debugger PIN: 100-542-443
+2025-02-27 04:46:36,411 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:46:36,422 [INFO] werkzeug:  * Debugger PIN: 170-763-050
+2025-02-27 04:48:46,343 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:48:46,345 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:48:46,346 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:48:46,348 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:48:46,353 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:48:46,354 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:48:46,357 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=hOR0Np6ywUNSTwjOS7zkd6frGjGjP9&access_type=offline&prompt=consent
+2025-02-27 04:48:49,324 [INFO] google_auth_oauthlib.flow: "GET /?state=ftNOe4Nu9vMucFfbmKJkmSupvSrQgl&code=4%2F0AQSTgQHFCINA-CAkqqolFt0DUTXEfSSn1qyhFunmqnfXYD3MFzDcpNZRYqCXwWBWj0YAAw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 04:48:49,496 [INFO] __main__: New credentials obtained.
+2025-02-27 04:48:49,496 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:48:49,496 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:48:49,510 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:48:49,515 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:48:51,911 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:48:51] "GET /courses HTTP/1.1" 200 -
+2025-02-27 04:50:24,264 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:50:24,266 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:50:24,277 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:50:24,934 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:50:25,056 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2025-02-27 04:50:25,158 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 04:50:26,604 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:50:26,615 [INFO] werkzeug:  * Debugger PIN: 170-763-050
+2025-02-27 04:50:26,953 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:50:26,968 [INFO] werkzeug:  * Debugger PIN: 100-542-443
+2025-02-27 04:50:42,070 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:50:42,307 [INFO] werkzeug:  * Restarting with watchdog (windowsapi)
+2025-02-27 04:50:42,973 [INFO] werkzeug:  * Detected change in 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\app.py', reloading
+2025-02-27 04:50:43,133 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 04:50:44,319 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:50:44,333 [INFO] werkzeug:  * Debugger PIN: 100-542-443
+2025-02-27 04:50:44,550 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 04:50:44,569 [INFO] werkzeug:  * Debugger PIN: 170-763-050
+2025-02-27 04:51:09,728 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:51:09,728 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:51:09,758 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:51:09,764 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:51:09,765 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:51:09,766 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:51:09,768 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=WtcS6JbtUB5CZYA5eRRgGP0dTP5Dac&access_type=offline&prompt=consent
+2025-02-27 04:51:11,254 [INFO] google_auth_oauthlib.flow: "GET /?state=xT9gIUW6BZcotJKXDe5KqxcjUP59Rp&code=4%2F0AQSTgQGhflXHpBJ2IjpS0tvoMsfC6CTwd5KO4iEVL6OJW_p-H2rT5x8R4wGnv_XldoooXg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 04:51:11,428 [INFO] __main__: New credentials obtained.
+2025-02-27 04:51:11,428 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:51:11,428 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:51:11,440 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:11,445 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:14,053 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:51:14] "GET / HTTP/1.1" 200 -
+2025-02-27 04:51:14,073 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:51:14] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 04:51:14,126 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:51:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-27 04:51:17,308 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:51:17,309 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:51:17,335 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:51:17,339 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:51:17,339 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:51:17,339 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:51:17,339 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=NI2rwQoZ9D28irYXh7KvhUK5mPhiBZ&access_type=offline&prompt=consent
+2025-02-27 04:51:18,576 [INFO] google_auth_oauthlib.flow: "GET /?state=mW8k1WKaA3gGwB6tO0b9BkCNtv2NkV&code=4%2F0AQSTgQEWDYwEM1O_fn7PskJkMZ3K7_yJDf2wr4GunhwWtVyVz2lDezYFPjGEv7E7hwUnXg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-27 04:51:18,750 [INFO] __main__: New credentials obtained.
+2025-02-27 04:51:18,752 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:51:18,752 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:51:18,757 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:18,769 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:21,288 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:51:21,288 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:51:21,322 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:51:21,325 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:51:21,325 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:51:21,325 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:51:21,328 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=n4UM7xhf1Esb3z3j0MzgxYJwoTLvDv&access_type=offline&prompt=consent
+2025-02-27 04:51:21,788 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:51:21] "GET /assignments/737279641227 HTTP/1.1" 200 -
+2025-02-27 04:51:22,581 [INFO] google_auth_oauthlib.flow: "GET /?state=qJBCbNEzoluPbyeGrKF7MG9CsaXw1i&code=4%2F0AQSTgQGh1NwIqpV5fbc619EkDQFXTc6E-8nG_JD_53vesQzrBEF6Dv8JHFNSBsgtfQ8sWA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 04:51:22,751 [INFO] __main__: New credentials obtained.
+2025-02-27 04:51:22,751 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:51:22,754 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:51:22,758 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:22,766 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:26,032 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:51:26] "GET /assignments/745936555771 HTTP/1.1" 200 -
+2025-02-27 04:51:34,676 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:51:34,676 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:51:34,705 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:51:34,705 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:51:34,705 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:51:34,705 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:51:34,712 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=SVluzJXv3tdqO5fshtw5g8lnV8DamF&access_type=offline&prompt=consent
+2025-02-27 04:51:35,911 [INFO] google_auth_oauthlib.flow: "GET /?state=MjxP3xDmnyKUtlV7ZH3bRFEyHH1k5L&code=4%2F0AQSTgQE7vCvNMSWQtDBzdGRxwrvLMOUeF4K53qFA6h29PS1-p5wmi7faMbw5CahhMTNdnA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me HTTP/1.1" 200 65
+2025-02-27 04:51:36,115 [INFO] __main__: New credentials obtained.
+2025-02-27 04:51:36,115 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:51:36,115 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:51:36,124 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:36,132 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:51:39,240 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:51:39] "GET /assignments/733742266435 HTTP/1.1" 200 -
+2025-02-27 04:52:01,479 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 04:52:01,484 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 04:52:01,512 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 04:52:01,520 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 04:52:01,521 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 04:52:01,521 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 04:52:01,521 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=nnLAsc9WdgLA5H1uhk9aa5SGVJHWSp&access_type=offline&prompt=consent
+2025-02-27 04:52:02,822 [INFO] google_auth_oauthlib.flow: "GET /?state=uEpDCr3gJ3QuGdsS6PDTIAqvQErG9q&code=4%2F0AQSTgQGcmeHc8i90rX5Le2rDKw4yuGo9S847TCa_LkFDUXBg0W-XKk_DD4QdU6te2152Xg&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 04:52:02,969 [INFO] __main__: New credentials obtained.
+2025-02-27 04:52:02,969 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 04:52:02,969 [INFO] __main__: Credentials saved to token file.
+2025-02-27 04:52:02,969 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:52:02,977 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 04:52:05,089 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:52:05] "GET / HTTP/1.1" 200 -
+2025-02-27 04:52:05,102 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:52:05] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 04:52:05,114 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 04:52:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-27 05:03:50,519 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-27 05:03:50,521 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-02-27 05:03:50,522 [INFO] werkzeug:  * Restarting with stat
+2025-02-27 05:03:51,976 [WARNING] werkzeug:  * Debugger is active!
+2025-02-27 05:03:51,981 [INFO] werkzeug:  * Debugger PIN: 216-405-049
+2025-02-27 05:04:14,416 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 05:04:14,420 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 05:04:14,427 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 05:04:14,428 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 05:04:14,430 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 05:04:14,431 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 05:04:14,434 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=TpRwbXMTLarVqXJqm6yn19vO6X5l9D&access_type=offline&prompt=consent
+2025-02-27 05:04:16,031 [INFO] google_auth_oauthlib.flow: "GET /?state=eaMOlP8VRicqqX8XJoS8fedT2u8oag&code=4%2F0AQSTgQEyIcLR9_cJ-ByZpkPUByIMPf0WpF0QPdujDhgVo2JNdaPMM22a2Cn-Aiu9iqmaEw&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 05:04:16,272 [INFO] __main__: New credentials obtained.
+2025-02-27 05:04:16,272 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 05:04:16,273 [INFO] __main__: Credentials saved to token file.
+2025-02-27 05:04:16,295 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 05:04:16,345 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 05:04:18,565 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 05:04:18] "GET / HTTP/1.1" 200 -
+2025-02-27 05:04:18,602 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 05:04:18] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-02-27 05:04:18,695 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 05:04:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-27 05:04:18,707 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 05:04:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-27 05:04:26,580 [INFO] __main__: Checking if token file exists at: C:\Users\openc\OneDrive\Pictures\moxamel\Education\token.json
+2025-02-27 05:04:26,581 [INFO] __main__: Token file exists. Attempting to load credentials from token file.
+2025-02-27 05:04:26,583 [WARNING] __main__: Refresh token not found in token file. Deleting token file.
+2025-02-27 05:04:26,588 [ERROR] __main__: Error deleting token file: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\openc\\OneDrive\\Pictures\\moxamel\\Education\\token.json'
+2025-02-27 05:04:26,590 [INFO] __main__: Credentials not found or invalid. Attempting to refresh or obtain new credentials.
+2025-02-27 05:04:26,592 [INFO] __main__: No valid credentials or refresh token. Running installed app flow to obtain new credentials.
+2025-02-27 05:04:26,598 [INFO] __main__: Authorization URL: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=349751729959-0rqesorn1i8b2db1aip8fnio1chs2b40.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly&state=lQGefblP8anlkJwhaXgG5UlrugfejB&access_type=offline&prompt=consent
+2025-02-27 05:04:27,998 [INFO] google_auth_oauthlib.flow: "GET /?state=uALbcAclDYOTf0a2jHTxEytHoH5xsf&code=4%2F0AQSTgQGuEkhPwFDcOBnv_eQojd7D7QXrPjdLusdp68SoJloPIxp_CWN9xeEMt-QmdqhOnA&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.coursework.me+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fclassroom.courses.readonly+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file HTTP/1.1" 200 65
+2025-02-27 05:04:28,195 [INFO] __main__: New credentials obtained.
+2025-02-27 05:04:28,195 [WARNING] __main__: No refresh token obtained, this may cause issues later.
+2025-02-27 05:04:28,195 [INFO] __main__: Credentials saved to token file.
+2025-02-27 05:04:28,198 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 05:04:28,198 [INFO] googleapiclient.discovery_cache: file_cache is only supported with oauth2client<4.0.0
+2025-02-27 05:04:30,784 [INFO] werkzeug: 127.0.0.1 - - [27/Feb/2025 05:04:30] "GET /assignments/737279641227 HTTP/1.1" 200 -
