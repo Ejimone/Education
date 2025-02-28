@@ -2,9 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 h1, h2 {
-    color: #333;
+    color: green;
 }
 
 button, input[type="submit"] {
@@ -31,4 +36,97 @@ ul {
 
 li {
     margin: 5px 0;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.heroNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategrey;
+    border: 1px solid black;
+    /* a border radius could enhance the appearance */
+    border-radius: 5px; /* Adding a border radius for aesthetics */
+
+}
+
+.assignment-container {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assignment-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.table-cell {
+    vertical-align: top;
+    width: 33%;
+}
+
+.section-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.section-title {
+    color: #3a3a3a;
+    border-bottom: 2px solid #4285f4;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.select-input, .file-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.assignment-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #3367d6;
+}
+
+.message-text {
+    margin-top: 15px;
+    font-style: italic;
+    color: #4285f4;
 }

@@ -11,6 +11,7 @@ from logging.handlers import RotatingFileHandler
 import json
 import secrets
 
+
 app = Flask(__name__)
 
 # Add secret key for session management

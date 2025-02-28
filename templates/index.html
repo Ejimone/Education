@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr Assignment</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <h1>Mr Assignment</h1>
-    
-    <button onclick="startAuth()">Authenticate</button>
-    
-    <h2>Courses</h2>
-    <select id="courseSelect" onchange="loadAssignments()">
-        <option value="">Select a course</option>
-        {% for course in courses %}
-            <option value="{{ course.id }}">{{ course.name }}</option>
-        {% endfor %}
-    </select>
-    
-    <h2>Assignments</h2>
-    <ul id="assignmentList"></ul>
-    
-    <h2>Submit Assignment</h2>
-    <form action="/submit" method="POST" enctype="multipart/form-data">
-        <input type="hidden" name="course_id" id="courseId" value="">
-        <input type="hidden" name="assignment_id" id="assignmentId" value="">
-        <input type="file" name="file" required>
-        <button type="submit">Submit Assignment</button>
-    </form>
-    <p id="message"></p>
+    <nav class="heroNav">
+        <h1 class="title" style="font-size: xx-large; color: #ffff; align-self: self-start; margin-right: auto; align-self: flex-start;">Mr Assignment</h1>
+        <button onclick="startAuth()">Authenticate</button>
+    </nav>
+       
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+    
+    <div class="assignment-container">
+        <table class="assignment-table">
+            <tr>
+                <td class="table-cell">
+                    <div class="section-box">
+                        <h2 class="section-title">Courses</h2>
+                        <select id="courseSelect" onchange="loadAssignments()" class="select-input">
+                            <option value="">Select course</option>
+                            {% for course in courses %}
+                                <option value="{{ course.id }}">{{ course.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </td>
+                <td class="table-cell">
+                    <div class="section-box">
+                        <h2 class="section-title">Assignments</h2>
+                        <ul id="assignmentList" class="assignment-list"></ul>
+                    </div>
+                </td>
+                <td class="table-cell"></td>
+                    <div class="section-box">
+                        <h2 class="section-title">Submit Assignment</h2>
+                        <form action="/submit" method="POST" enctype="multipart/form-data" class="submit-form">
+                            <input type="hidden" name="course_id" id="courseId" value="">
+                            <input type="hidden" name="assignment_id" id="assignmentId" value="">
+                            <div class="form-group">
+                                <input type="file" name="file" required class="file-input">
+                            </div>
+                            <button type="submit" class="submit-button">Submit Assignment</button>
+                        </form>
+                        <p id="message" class="message-text"></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="../static/script.js"></script>
 </body>
 </html>

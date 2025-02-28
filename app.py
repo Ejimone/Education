@@ -237,8 +237,11 @@ def submit_assignment(classroom_service, course_id, coursework_id, file_id, file
         updateMask='addAttachments', body={'addAttachments': [attachment]}
     ).execute()
     
+    # Turn in the submission
     classroom_service.courses().courseWork().studentSubmissions().turnIn(
-        courseId=coursework_id, id=submission['id']
+        courseId=course_id, 
+        courseWorkId=coursework_id, 
+        id=submission['id']
     ).execute()
 
 @app.route('/check_redirect_uri')
