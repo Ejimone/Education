@@ -21,6 +21,7 @@ function loadAssignments() {
     const courseId = document.getElementById('courseSelect').value;
     if (!courseId) return;
     
+    // Update hidden course_id field
     document.getElementById('courseId').value = courseId;
     fetch(`/assignments/${courseId}`)
         .then(response => response.json())
@@ -29,11 +30,13 @@ function loadAssignments() {
             list.innerHTML = '';
             data.assignments.forEach(assignment => {
                 const li = document.createElement('li');
-                li.innerHTML = `${assignment.title} (Due: ${assignment.due}, Status: ${assignment.status}) 
-                    <button onclick="selectAssignment('${assignment.id}')">Select</button>`;
+                // Pass both courseId and assignment.id to the selectAssignment function
+                li.innerHTML = `${assignment.title} (Due: ${assignment.due}, Status: ${assignment.status})
+                    <button onclick="selectAssignment('${courseId}', '${assignment.id}')">Select</button>`;
                 list.appendChild(li);
             });
-        });
+        })
+        .catch(error => console.error('Error:', error));
 }
 
 function selectAssignment(courseId, assignmentId) {

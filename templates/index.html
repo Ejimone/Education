@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +8,9 @@
 </head>
 <body>
     <nav class="heroNav">
-        <h1 class="title" style="font-size: xx-large; color: #ffff; align-self: self-start; margin-right: auto; align-self: flex-start;">Mr Assignment</h1>
+        <h1 class="title" style="font-size: xx-large; color: #ffff; align-self: flex-start; margin-right: auto;">Mr Assignment</h1>
         <button onclick="startAuth()">Authenticate</button>
     </nav>
-       
-
-
     
     <div class="assignment-container">
         <table class="assignment-table">
@@ -36,10 +32,10 @@
                         <ul id="assignmentList" class="assignment-list"></ul>
                     </div>
                 </td>
-                <td class="table-cell"></td>
+                <td class="table-cell">
                     <div class="section-box">
                         <h2 class="section-title">Submit Assignment</h2>
-                        <form action="/submit" method="POST" enctype="multipart/form-data" class="submit-form">
+                        <form action="/submit" method="POST" enctype="multipart/form-data" id="submitForm" class="submit-form">
                             <input type="hidden" name="course_id" id="courseId" value="">
                             <input type="hidden" name="assignment_id" id="assignmentId" value="">
                             <div class="form-group">
@@ -53,7 +49,6 @@
             </tr>
         </table>
     </div>
-
 
     <script src="../static/script.js"></script>
 </body>

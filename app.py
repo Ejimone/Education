@@ -20,7 +20,7 @@ app.secret_key = secrets.token_hex(16)
 SCOPES = [
     'https://www.googleapis.com/auth/classroom.coursework.me',
     'https://www.googleapis.com/auth/drive.file',
-    'https://www.googleapis.com/auth/classroom.courses.readonly' # Added missing scope
+    'https://www.googleapis.com/auth/classroom.courses.readonly'  # Added missing scope
 ]
 
 # Path configuration using pathlib
@@ -64,7 +64,7 @@ def authenticate():
                 TOKEN_PATH.unlink()
             except Exception as e:
                 logger.error(f"Error deleting token file: {e}")
-            creds = None # Ensure creds is None to trigger re-authentication
+            creds = None  # Ensure creds is None to trigger re-authentication
     else:
         logger.info("Token file does not exist.")
 
@@ -92,7 +92,7 @@ def authenticate():
             creds = flow.run_local_server(
                 port=8080,
                 authorization_prompt_message="Please authorize this application to access your Google account",
-                state=False # Disable CSRF protection for local testing
+                state=False  # Disable CSRF protection for local testing
             )
             logger.info("New credentials obtained.")
 
@@ -137,7 +137,6 @@ def auth():
         logger.info("Deleted existing token.json to force re-authentication.")
     
     try:
-        # Try using the InstalledAppFlow approach which is more reliable for local development
         flow = InstalledAppFlow.from_client_secrets_file(
             str(CREDENTIALS_PATH),
             SCOPES
@@ -158,7 +157,6 @@ def auth():
     except Exception as e:
         logger.error(f"Authentication error: {str(e)}")
         return jsonify({'error': f'Authentication failed: {str(e)}'}), 500
-
 
 @app.route('/courses')
 def courses():
@@ -192,8 +190,12 @@ def submit():
     """Submit an assignment."""
     creds = authenticate()
     classroom_service, drive_service = get_services(creds)
-    course_id = request.form['course_id']
-    coursework_id = request.form['assignment_id']
+    course_id = request.form.get('course_id')
+    coursework_id = request.form.get('assignment_id')
+    
+    if not course_id or not coursework_id:
+        return jsonify({'error': 'Course ID or Assignment ID is missing'}), 400
+
     file = request.files['file']
     file_path = os.path.join('uploads', file.filename)
     os.makedirs('uploads', exist_ok=True)
