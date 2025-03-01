@@ -4,7 +4,13 @@ function startAuth() {
 
 function loadCourses() {
     fetch('/courses')
-        .then(response => response.json())
+        .then(response => {
+            if (response.status === 401) {
+                window.location.href = '/auth';
+                throw new Error('Not authenticated');
+            }
+            return response.json();
+        })
         .then(data => {
             const select = document.getElementById('courseSelect');
             data.courses.forEach(course => {
@@ -21,16 +27,20 @@ function loadAssignments() {
     const courseId = document.getElementById('courseSelect').value;
     if (!courseId) return;
     
-    // Update hidden course_id field
     document.getElementById('courseId').value = courseId;
     fetch(`/assignments/${courseId}`)
-        .then(response => response.json())
+        .then(response => {
+            if (response.status === 401) {
+                window.location.href = '/auth';
+                throw new Error('Not authenticated');
+            }
+            return response.json();
+        })
         .then(data => {
             const list = document.getElementById('assignmentList');
             list.innerHTML = '';
             data.assignments.forEach(assignment => {
                 const li = document.createElement('li');
-                // Pass both courseId and assignment.id to the selectAssignment function
                 li.innerHTML = `${assignment.title} (Due: ${assignment.due}, Status: ${assignment.status})
                     <button onclick="selectAssignment('${courseId}', '${assignment.id}')">Select</button>`;
                 list.appendChild(li);
@@ -51,7 +61,13 @@ document.getElementById('submitForm').addEventListener('submit', function(e) {
         method: 'POST',
         body: formData
     })
-    .then(response => response.json())
+    .then(response => {
+        if (response.status === 401) {
+            window.location.href = '/auth';
+            throw new Error('Not authenticated');
+        }
+        return response.json();
+    })
     .then(data => {
         document.getElementById('message').textContent = data.message || data.error;
         loadAssignments(); // Refresh assignment list

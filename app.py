@@ -34,7 +34,7 @@ logging.basicConfig(
     format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
     handlers=[
         logging.StreamHandler(),
-        RotatingFileHandler('app.log', mode='a', maxBytes=10485760, backupCount=5)
+        RotatingFileHandler('history.log', mode='a', maxBytes=10485760, backupCount=5)
     ]
 )
 logger = logging.getLogger(__name__)
@@ -109,6 +109,7 @@ def authenticate():
         logger.info("Valid credentials found.")
 
     return creds
+
 
 def get_services(creds):
     """Return Classroom and Drive API services."""
